@@ -1,4 +1,5 @@
-import open('EO.csv', 'r') as file:
+import csv
+with open('footieINFO.csv', 'r') as file:
     reader = csv.reader(file)
     i = 0
     for row in reader:
@@ -6,3 +7,4 @@ import open('EO.csv', 'r') as file:
         if i == 5:
             break
         i += 1
+
