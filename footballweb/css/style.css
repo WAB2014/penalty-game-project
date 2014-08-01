@@ -1,0 +1,24 @@
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.ball.left {
+	margin: -73px 0 0 -86px;
+}
+.ball.right {
+	margin: -73px -86px 0 0;
+}
+body {
+	background: url("../img/pitch.jpg") no-repeat ;
+	background-size: cover;
+}
+
+.game {
+	text-align: center;
+}
+
+.table{
+	text-align: center;
+}
